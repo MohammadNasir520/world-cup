@@ -1,0 +1,138 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* -------------
+top banner style
+-------------- */
+.top-banner {
+
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+
+
+}
+
+.banner-item1 {
+    margin-left: 106px;
+}
+
+.banner-item1,
+.banner-item2 {
+    width: 50%;
+}
+
+.banner-item2 img {
+    height: 100%;
+    width: 100%;
+}
+
+.banner-item h1 {
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.banner-item p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.button1 {
+    width: 187px;
+    height: 56px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #DD0000;
+    border-radius: 5px;
+    padding: 5px 25px;
+
+}
+
+.fa-greater-than {
+    margin-left: 10px;
+}
+
+/* --------------------------------------------------------------
+                                    button style
+------------------------------------------------------------------ */
+.section-blog-button {
+
+    display: flex;
+    margin-top: 130px;
+
+}
+
+.button-container {
+    width: 312px;
+    max-width: 312px;
+    min-width: 312px;
+    height: 312px;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.Match-button,
+.group-button,
+.blog-button {
+    width: 252px;
+    height: 64px;
+    border-radius: 10px;
+    border: none;
+}
+
+.group-button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+/* ---------------------------------------------------
+                        article section style
+------------------------------------------------------------ */
+
+.article-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    width: 100%;
+    margin-right: 30px;
+}
+
+.article {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+
+}
+
+.article-thumbnail img {
+    width: 100%;
+
+}
+
+.transfer-button {
+    width: 100px;
+    height: 32px;
+    border: none;
+    margin-right: 20px;
+}
+
+.blog-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
