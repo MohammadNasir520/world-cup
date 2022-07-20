@@ -247,10 +247,17 @@ mobile responsive
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .three-buttons {
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+
     .Match-button {
         width: 320px;
         height: 64px;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     footer {
