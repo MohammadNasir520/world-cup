@@ -16,10 +16,25 @@ top banner style
     align-items: center;
     border-radius: 30px;
     width: 100%;
+    height: 100%;
 
 }
 
 .banner-item1 {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-item1 h1 {
+    margin-left: 106px;
+}
+
+.banner-item1 button {
+    margin-left: 106px;
+    margin-bottom: 50px;
+}
+
+.banner-item1 p {
     margin-left: 106px;
 }
 
@@ -36,7 +51,8 @@ top banner style
 .banner-item1 h1 {
     font-family: poppins;
     font-weight: 700;
-    font-size: 4.5vw;
+    font-size: 3.2vw;
+    margin-left: 106px;
 }
 
 .banner-item p {
