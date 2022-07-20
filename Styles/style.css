@@ -14,7 +14,8 @@ top banner style
     background-color: black;
     color: white;
     align-items: center;
-
+    border-radius: 30px;
+    width: 100%;
 
 }
 
@@ -32,7 +33,7 @@ top banner style
     width: 100%;
 }
 
-.banner-item h1 {
+.banner-item1 h1 {
     font-family: poppins;
     font-weight: 700;
     font-size: 70px;
@@ -211,5 +212,36 @@ footer p {
     margin-right: 30px;
     font-family: poppins;
     font-weight: 500;
+
+}
+
+/* --------------------------------------------------------
+media query
+------------------------------------------------------ */
+@media only screen and (max-width: 576px) {
+    .top-banner {
+        display: grid;
+        flex-direction: column;
+    }
+
+    .banner-item1 h1 {
+        font-family: poppins;
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+
+
+    .banner-item2 img {
+        margin-left: 100px;
+        margin-top: 20px;
+        height: 80%;
+        width: 100%;
+    }
+
+    footer,
+    .section-blog-button {
+        display: none;
+    }
 
 }
