@@ -247,6 +247,7 @@ footer p {
 .date {
     text-align: center;
     border: 1px solid lightgray;
+    border-radius: 10px;
 
 }
 
@@ -255,10 +256,13 @@ footer p {
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
+    padding: 0 5px;
 }
 
 .vs {
     font-size: 25px;
+    font-family: poppins;
+    font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
