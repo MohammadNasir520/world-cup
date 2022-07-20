@@ -284,7 +284,8 @@ mobile responsive
     }
 
     .section-blog-button,
-    .article-container {
+    .article-container,
+    .schedule {
         display: grid;
         justify-content: center;
         grid-template-columns: repeat(1, 1fr);
@@ -330,7 +331,8 @@ tab responsiv
         background-color: white;
     }
 
-    .article-container {
+    .article-container,
+    .schedule {
         grid-template-columns: repeat(2, 1fr);
     }
 
