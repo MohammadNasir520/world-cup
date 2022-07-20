@@ -234,6 +234,36 @@ footer p {
 
 }
 
+/* -------------flag file style------------------ */
+.schedule {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.date {
+    text-align: center;
+    border: 1px solid lightgray;
+
+}
+
+.flag-vs-flag {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.vs {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* --------------------------------------------------------
 media query
 
