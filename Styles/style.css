@@ -225,6 +225,8 @@ footer p {
 
 /* --------------------------------------------------------
 media query
+
+mobile responsive
 ------------------------------------------------------ */
 @media only screen and (max-width: 768px) {
     .top-banner {
@@ -267,9 +269,14 @@ media query
     footer {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        height: auto;
     }
 
     .footer-para {
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+/* ------------------------------
+tab responsiv
+-----------  */
