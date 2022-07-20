@@ -74,8 +74,9 @@ top banner style
 }
 
 .three-buttons {
-    width: 312px;
-    height: 312px;
+    min-width: 312px;
+    min-height: 312px;
+    max-height: 312px;
     border-radius: 10px;
     background-color: black;
     display: grid;
@@ -84,7 +85,7 @@ top banner style
     margin-right: 24px;
 }
 
-.button-container button {
+.three-buttons button {
     font-family: 'Poppins';
     font-weight: 500;
     font-size: 20px;
