@@ -85,6 +85,12 @@ top banner style
     margin-right: 24px;
 }
 
+.button-container button {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+}
+
 
 
 .Match-button,
@@ -94,6 +100,11 @@ top banner style
     height: 64px;
     border-radius: 10px;
     border: none;
+}
+
+.blog-button {
+    background-color: #DD0000;
+    color: white;
 }
 
 .group-button {
@@ -136,10 +147,16 @@ top banner style
     width: 100px;
     height: 32px;
     border: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .article-detail {
     margin: 0 20px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .article-info {
@@ -150,6 +167,13 @@ top banner style
 
 .article-info span {
     margin-right: 40px;
+}
+
+
+.article-info p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .fa-clock,
@@ -174,11 +198,18 @@ footer {
 
 footer h2 {
     color: white;
+
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 40px;
 }
 
 footer p {
-    color: white;
+    color: #B9B9B9;
+    ;
     display: inline;
     margin-right: 30px;
+    font-family: poppins;
+    font-weight: 500;
 
 }
