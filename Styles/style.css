@@ -222,6 +222,18 @@ footer p {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.fa-facebook-f,
+.fa-twitter-square,
+.fa-linkedin {
+    font-size: 30px;
+    width: 30px;
+    color: blue;
+    background-color: white;
+    border-radius: 10px;
+    height: 30px;
+
+}
+
 /* --------------------------------------------------------
 media query
 
