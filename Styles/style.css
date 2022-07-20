@@ -207,12 +207,14 @@ footer h2 {
 
 footer p {
     color: #B9B9B9;
-    ;
-    display: inline;
-    margin-right: 30px;
     font-family: poppins;
     font-weight: 500;
 
+}
+
+.footer-para {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
 }
 
 /* --------------------------------------------------------
@@ -262,6 +264,6 @@ media query
     }
 
     .footer-para {
-        display: block;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
