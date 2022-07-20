@@ -36,13 +36,13 @@ top banner style
 .banner-item1 h1 {
     font-family: poppins;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 4.5vw;
 }
 
 .banner-item p {
     font-family: 'Poppins';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1vw;
 }
 
 .button1 {
@@ -218,30 +218,18 @@ footer p {
 /* --------------------------------------------------------
 media query
 ------------------------------------------------------ */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
     .top-banner {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         flex-direction: column;
     }
 
-    .banner-item1 h1 {
-        font-family: poppins;
-        font-weight: 700;
-        font-size: 25px;
-    }
-
-
-
     .banner-item2 img {
         margin-left: 100px;
         margin-top: 20px;
         height: 80%;
         width: 100%;
-    }
-
-    footer {
-        display: none;
     }
 
     .section-blog-button,
@@ -262,7 +250,18 @@ media query
     }
 
     .Match-button {
-        width: 300px;
+        width: 320px;
         height: 64px;
+        font-size: 30px;
+    }
+
+
+    footer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-para {
+        display: block;
     }
 }
