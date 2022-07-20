@@ -264,6 +264,19 @@ footer p {
     align-items: center;
 }
 
+.schedule h3 {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.schedule {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
 /* --------------------------------------------------------
 media query
 
